@@ -23,6 +23,7 @@ public class CodingTest1 {
             String str = iterator.next();
             if (str.length() <= 3) {
                 iterator.remove();
+		    System.out.println(str +" is removed from list");
             }
         }
         
